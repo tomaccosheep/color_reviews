@@ -9,6 +9,8 @@ Number reviews, average review score, highest review score
 Run:
 
 ```
+py -m pipenv install
+py -m pipenv shell
 py manage.py makemigrations
 py manage.py migrate
 py manage.py populate_colors
